@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Linking external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Header section containing navigation bar -->
+    <header>
+        <nav>
+            <h1>Roshan Dev</h1>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section - Welcome message and introductory content -->
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Thank you for visiting my portfolio! Here, you can explore some of the projects I've been working on as 
+                    I continue my journey in front-end development. I'm excited to share that this very website is my first 
+                    fully built project—a testament to the skills I'm developing and my passion for web design.
+
+                    Feel free to check out my work, see my progress, and reach out if you'd like to collaborate or have any questions.
+                     I'm always excited to connect and learn from others in the web development community!</p>
+                <a href="#projects" class="cta-button">View My Projects</a>
+            </div>
+        </section>
+
+        <!-- About section - Information about the developer -->
+        <section id="about">
+            <h1>About Me</h1>
+            <div class="content">
+                <!-- Profile image -->
+                <img src="https://raw.githubusercontent.com/devroshanthakur/my-assets/refs/heads/main/Profile.jpg" alt="A picture of me">
+                <p>
+                    Hi there! I'm a passionate and aspiring front-end developer eager to dive deep into the world of web development. 
+                    I'm currently focused on mastering the essential tools and technologies that power the modern web, including HTML, CSS,
+                     and JavaScript. My goal is to create visually appealing, user-friendly websites that provide excellent user experiences.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Skills section - Displaying developer's skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>
+                    <img src="https://raw.githubusercontent.com/devroshanthakur/my-assets/refs/heads/main/html.png" alt="HTML5 Logo" class="skill-icon"> 
+                    <span>HTML5</span>
+                </li>
+                <li>
+                    <img src="https://raw.githubusercontent.com/devroshanthakur/my-assets/refs/heads/main/css.png" alt="CSS3 Logo" class="skill-icon"> 
+                    <span>CSS3</span>
+                </li>
+                <li>
+                    <img src="https://raw.githubusercontent.com/devroshanthakur/my-assets/refs/heads/main/js.png" alt="JavaScript Logo" class="skill-icon">
+                    <span>JavaScript</span>
+                </li>
+            </ul>
+        </section>
+        
+        <!-- Projects section - Showcasing projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 card -->
+                <div class="project-card">
+                    <img src="https://raw.githubusercontent.com/devroshanthakur/my-assets/refs/heads/main/project.jpg" alt="Project 1 Screenshot" class="project-img">
+                    <div class="description">
+                        <h3>Project 1</h3>
+                        <p>A brief description of the project and its key features.</p>
+                    </div>
+                    <div class="group-btn">
+                        <button class="overview-button">Show Overview</button>
+                        <a href="https://demo-link.com" class="cta-button" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <!-- Project 2 card -->
+                <div class="project-card">
+                    <img src="https://raw.githubusercontent.com/devroshanthakur/my-assets/refs/heads/main/project.jpg" alt="Project 2 Screenshot" class="project-img">
+                    <div class="description">
+                        <h3>Project 2</h3>
+                        <p>A brief description of the project and its key features.</p>
+                    </div>
+                    <div class="group-btn">
+                        <button class="overview-button">Show Overview</button>
+                        <a href="https://demo-link.com" class="cta-button" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+                <!-- Project 3 card -->
+                <div class="project-card">
+                    <img src="https://raw.githubusercontent.com/devroshanthakur/my-assets/refs/heads/main/project.jpg" alt="Project 3 Screenshot" class="project-img">
+                    <div class="description">
+                        <h3>Project 3</h3>
+                        <p>A brief description of the project and its key features.</p>
+                    </div>
+                    <div class="group-btn">
+                        <button class="overview-button">Show Overview</button>
+                        <a href="https://demo-link.com" class="cta-button" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact section - Contact form for visitors to reach out -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <!-- Footer section -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+</body>
+</html>
